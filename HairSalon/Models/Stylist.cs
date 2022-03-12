@@ -1,4 +1,4 @@
 
 // using System.Collections.Generic;
 
-// namespace Salons.Models
+// namespace HairSalons.Models
