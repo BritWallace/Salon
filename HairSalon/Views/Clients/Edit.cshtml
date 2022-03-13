@@ -2,7 +2,7 @@
   Layout = "_Layout";
 }
 
-@model HairSalons.Models.Client
+@model HairSalon.Models.Client
 
 <h2>Edit</h2>
 
@@ -17,12 +17,6 @@
 
   @Html.LabelFor(model => model.Description)
   @Html.EditorFor(model => model.Description)
-
-  @Html.LabelFor(model => model.Rating)
-  @Html.EditorFor(model => model.Rating)
-
-  @Html.LabelFor(model => model.Price)
-  @Html.EditorFor(model => model.Price)
 
   @Html.LabelFor(model => model.Stylist)
   @Html.DropDownList("StylistId")

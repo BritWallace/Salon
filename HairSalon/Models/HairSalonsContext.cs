@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace HairSalons.Models
+namespace HairSalon.Models
 {
   public class HairSalonsContext : DbContext
   {
